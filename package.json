@@ -28,6 +28,9 @@
     "extends": "aqua",
     "rules": {
       "no-console": 0
+    },
+    "scripts": {
+  "start": "node index.js"
     }
   }
 }
