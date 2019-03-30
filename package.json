@@ -1,0 +1,34 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "roleReact.js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "author": "Arlind",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "opusscript": "0.0.3",
+    "simple-youtube-api": "^3.0.0",
+    "ytdl-core": "^0.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-aqua": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "no-console": 0
+    }
+  }
+}
+
