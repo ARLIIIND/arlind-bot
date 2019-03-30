@@ -30,7 +30,7 @@
       "no-console": 0
     },
     "scripts": {
-  "start": "node index.js"
+  "start": "node roleReact.js"
     }
   }
 }
