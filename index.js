@@ -13,7 +13,6 @@ const reactions = ["💻"];
 //Load le bot
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login(botToken);
 
 //message d'erreur si:
 if (roles.length !== reactions.length) throw "La liste des rôles et la liste des réactions ne sont pas de la même longueur !";
